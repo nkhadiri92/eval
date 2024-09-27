@@ -1,4 +1,4 @@
-Name: Publish Docker image
+name: Publish Docker image
 
 on:
   push:
@@ -32,4 +32,4 @@ jobs:
           context: .
           platforms: linux/arm/v7
           push: true
-          tags: nas92/eval:latest
+          tags: nas92/python-ci:latest
